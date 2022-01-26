@@ -1,65 +1,79 @@
-body {
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #191919;
+* {
+  border: none;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.container, .contact-us-section {
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: #191919;
+}
+.nav {
+  padding: 1.6rem 10rem;
+}
+
+.nav .nav__logo {
+  width: 5%;
+}
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container,
+.contact-us-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 img {
-    width: 20%;
+  width: 20%;
+}
+
+p,
+.link {
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px;
 }
 
 .header {
-    font-weight: 900;
-    font-size: 23px;
-    margin-top: 15px;
+  font-weight: 900;
+  font-size: 28px;
+  margin: 20px 0 40px;
 }
 
-.link, p {
-    color: #fff;
-    font-family: "Roboto", sans-serif;
-    text-align: center;
-    font-weight: 300;
-    font-size: 15px;
+.description {
+  margin-bottom: 20px;
+}
+
+.contacts {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.contacts p,
+.link,
+.address {
+  font-size: 16px;
 }
 
 .link {
-    font-weight: 400;
-    /* text-decoration: none; */
-    margin-top: 10px;
-}
-
-.link:last-of-type {
-    margin-bottom: 15px;
+  text-decoration: none;
 }
 
 .bold {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .lg-text {
-    font-size: 18px;
-    margin-bottom: 5px;
-    margin-top: 10px;   
-}
-
-.xl-text {
-    font-size: 21px;
-    margin-top: 5px;
-}
-
-
-.address {
-    font-size: 10px;
+  font-size: 21px;
+  margin-bottom: 15px;
 }
