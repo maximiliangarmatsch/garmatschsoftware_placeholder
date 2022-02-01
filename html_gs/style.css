@@ -11,16 +11,6 @@ body {
   margin: 0;
   padding: 0;
   background: #191919;
-}
-.nav {
-  padding: 1.6rem 10rem;
-}
-
-.nav .nav__logo {
-  width: 5%;
-}
-.wrapper {
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
