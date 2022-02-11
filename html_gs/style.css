@@ -67,3 +67,9 @@ p,
   font-size: 21px;
   margin-bottom: 15px;
 }
+.x-underline {
+  text-decoration: underline;
+}
+.x-italic {
+  font-style: italic;
+}
